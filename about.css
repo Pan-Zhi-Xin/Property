@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    z-index: 2;
+    color: #cec1b2;
+    background-color: #A9ADB0;
+    box-shadow: 0px 0px 12px 0px #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+}
+
+header p {
+    position: absolute;
+    color: #000000;
+    font-size: 40px;
+    font-weight: 600;
+    top: 20px;
+    left: 180px;
+}
+
+header ul {
+    color: #cec1b2;
+    font-weight: 400;
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 85px;
+    transform: translateY(18px);
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    word-spacing: 20px;
+    margin-right: 20px;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header li {
+    display: inline;
+    padding-left: 11px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    width: 130px;
+    transform: translateX(-20px) translateY(-20px);
+}
+
+.dropdown-content a {
+    text-align: center;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    font-weight: bold;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+main {
+    padding: 120px 20px 20px;
+    color: black;
+}
+
+.about-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.about-section h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.about-section h2 {
+    margin-top: 20px;
+    font-size: 28px;
+}
+
+.about-section p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.about-content
+{
+    border: 3px solid #616161;
+    border-radius: 10px;
+    font-size: 15px;
+    line-height: 2;
+    margin: 20px;
+    padding: 20px;
+    margin-bottom: 30px;
+
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #A9ADB0;
+    color: #000;
+    bottom: 0;
+    width: 100%;
+    margin-top: 200px;
+}
+img[alt="Logo"]
+{
+    width: 8%;
+    transform: translateX(20px) translateY(20px);
+
+}
